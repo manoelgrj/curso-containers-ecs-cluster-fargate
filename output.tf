@@ -17,3 +17,7 @@ output "internal_load_balancer_dns" {
 output "cloudmap_ssm" {
   value = aws_ssm_parameter.cloudmap.id
 }
+
+output "vpc_link" {
+  value = aws_ssm_parameter.vpc_link.id
+}
